@@ -4,3 +4,4 @@ document.addEventListener("DOMContentLoaded", function(){
         alert("Hola! Soy el div")
     })
 })
+
