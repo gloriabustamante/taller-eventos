@@ -4,3 +4,8 @@ document.addEventListener("DOMContentLoaded", function(){
         alert("Hola! Soy el div")
     })
 })
+
+var div = document.querySelector("div");
+div.addEventListener("click", funcion(event){
+    event.preventDefault();
+})
