@@ -7,5 +7,5 @@ document.addEventListener("DOMContentLoaded", function(){
 
 var div = document.querySelector("div");
 div.addEventListener("click", funcion(event){
-    event.preventDefault();
+    event.stopPropagation();
 })
